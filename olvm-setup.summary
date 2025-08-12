@@ -1,0 +1,26 @@
+
+OLVM FQDN: olvm.nanops.cloud.local
+
+--== SUMMARY ==--
+
+[ INFO  ] No need to restart fapolicyd because it is not running.
+[ INFO  ] Starting dwh service
+[ INFO  ] Starting Grafana service
+[ INFO  ] Restarting ovirt-vmconsole proxy service
+To login to oVirt using Keycloak SSO, enter 'admin@ovirt' as username and the password provided during Setup
+To login to Keycloak Administration Console enter 'admin' as username and the password provided during Setup
+Web access for Keycloak Administration Console is enabled at:
+    https://olvm.nanops.cloud.local/ovirt-engine-auth/admin
+Web access is enabled at:
+    http://olvm.nanops.cloud.local:80/ovirt-engine
+    https://olvm.nanops.cloud.local:443/ovirt-engine
+Internal CA fingerprint: SHA256: 71:E0:0E:E6:F3:19:A8:51:86:2F:9D:22:53:4C:51:EF:DD:F7:6D:3A:F9:0C:00:49:B4:9B:61:99:01:E8:C7:E8
+SSH fingerprint: SHA256:bXBGk/+5iHIJExP9fZCAGDJTV18q7RlQP9ClhkU6F20
+[ INFO  ] Starting engine service
+[WARNING] Less than 16384MB of memory is available
+Web access for grafana is enabled at:
+    https://olvm.nanops.cloud.local/ovirt-engine-grafana/
+Please run the following command on the engine machine olvm.nanops.cloud.local, for SSO to work:
+systemctl restart ovirt-engine
+
+--== END OF SUMMARY ==--
