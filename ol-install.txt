@@ -1,0 +1,12 @@
+
+# wiping a disk
+wipefs -a /dev/sda
+
+dns
+
+
+
+nfs
+
+olvm host installation
+url
