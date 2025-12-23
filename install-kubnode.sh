@@ -15,6 +15,10 @@ sudo systemctl enable --now cockpit.socket
 # Disable SELinux
 # sudo nano /etc/selinux/config
 # SELINUX=disabled
+# SELINUX=enforcing
+# SELINUX=permissive
+SELINUX=disabled 
+
 sudo grubby --update-kernel ALL --args selinux=0 
 sudo reboot
 
